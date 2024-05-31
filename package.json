@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@meshsdk/core": "*",
+    "tsx": "^4.9.4"
+  },
+  "scripts": {
+    "dev": "tsx index.ts"
+  }
+}
