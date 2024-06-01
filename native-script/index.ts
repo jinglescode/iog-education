@@ -5,7 +5,7 @@
 // Withdraw Assets
 import { withdrawAssets } from "./withdraw-assets";
 const txHash =
-  "6ddb22df64bc4ac671b510003a5cb4675aaaf9445f71a337ac4f5658aef6cbbf";
+  "550f9e52c7c161607a5e1a38ac49c19166be7ec93162fc303655b05a9587620b";
 await withdrawAssets({
   txHash: txHash,
 });

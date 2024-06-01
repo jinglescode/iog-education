@@ -2,6 +2,7 @@ import {
   NativeScript,
   resolveNativeScriptAddress,
   resolvePaymentKeyHash,
+  resolveNativeScriptHex,
 } from "@meshsdk/core";
 
 export function getScript(walletAddress: string) {
@@ -13,5 +14,7 @@ export function getScript(walletAddress: string) {
   };
   const scriptAddr = resolveNativeScriptAddress(script);
 
-  return { hash, script, scriptAddr };
+  let scriptHex = resolveNativeScriptHex(script);
+
+  return { hash, script, scriptAddr, scriptHex };
 }
